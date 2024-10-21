@@ -13,7 +13,7 @@ const Login = () => {
   return (
     <div className="flex h-screen justify-center items-center">
       <div>
-        <h1 className="text-4xl text-center pb-4">Login</h1>
+        <h1 className="text-4xl text-center pb-4 uppercase">Login</h1>
         <form
           onSubmit={(e) => {
             submitHandler(e);
